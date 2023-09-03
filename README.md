@@ -5,20 +5,20 @@
 First run the resolver.py and the resolver will keep listening on the port.
 
 ```
-python3 ./resolver.py port
+$ python3 ./resolver.py port
 ```
 
 Then you can start the client to send the query
 
 ```
-python3 ./client.py 127.0.0.1 resolver_port name [type=A] [rd] [timeout=5]
+$ python3 ./client.py 127.0.0.1 resolver_port name [type=A] [rd] [timeout=5]
 ```
 
 Sample:
 
 ```
-python3 ./resolver.py 5555
-python3 ./client.py 127.0.0.1 5555 www.google.com
+$ python3 ./resolver.py 5555
+$ python3 ./client.py 127.0.0.1 5555 www.google.com
 ```
 
 # Overview
